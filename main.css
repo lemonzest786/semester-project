@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+    color: rgb(67, 66, 66);
+    text-align: center;
+
+}
+main{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(34, 40, 49);
+}
+
+
+
+nav {
+    display: flex;
+    color: aliceblue;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+nav ul{
+    display: flex;
+    padding: 0.5em;
+    margin: 0em;
+ 
+}
+nav ul li{
+    display: inline;
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(0, 173, 181);
+    
+}
+
+nav ul li a:hover {
+    display: inline-block;
+    background-color: rgb(0, 173, 181);
+    padding: 0.3em;
+    border-radius: 3px;
+    text-decoration: none;
+    color: rgb(57, 62, 70);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+
+
+.guessG{
+    color: aliceblue;
+}
+
+
+nav li a{
+    display: block;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.main-navigation{
+    display: inline-block;
+}
+
+.navigation{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+}
