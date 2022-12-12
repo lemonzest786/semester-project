@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -75,4 +77,10 @@ nav li a{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 1.3em;
+}
+
+p{
+    font-family: 'Pacifico', cursive;
+    color: rgb(57, 62, 70);
+    font-size: 1.4em;
 }
